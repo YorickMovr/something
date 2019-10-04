@@ -19,7 +19,7 @@ class Gallery{
 Gallery.prototype.doSlider = function(){
     // let slideInterval = setInterval(() => this.showNextSlide(), 3000);
     previous.onclick = this.showPrevSlide;
-    document.addEventListener
+    next.onclick = this.showNextSlide;
 };
 
 Gallery.prototype.createSlides = function(){
